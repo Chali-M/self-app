@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+.main-outer{
+    width:100vw;
+    min-height: 100vw;
+    height:auto;
+    background-image: url(https://img.freepik.com/free-vector/colorful-palm-silhouettes-background_23-2148541792.jpg?w=740&t=st=1697723262~exp=1697723862~hmac=016500e30104169b52ba3f5cd8dd531bc1ef5af0a7005bb3c2eb12e7eeef516c);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-wrapper{
+    
+    display: flex;
+    flex-direction: column ;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+.top-title-wrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.top-title-wrapper h1{
+  text-align:center;
+  font-size: 23px;  
+   font-family: 'Pacifico', cursive;;
+}
+.controller-wrapper{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.controller-item{
+    height: 100%;
+    
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.item-inner{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+border-radius: 3px;
+align-items: center;
+display: flex;
+padding-left: 5px;
+}
+.playground{
+    display: flex;
+    flex: 1;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-bar{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
+
+}
